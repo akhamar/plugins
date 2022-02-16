@@ -73,6 +73,7 @@
                         <dynu>Dynu</dynu>
                         <easydns>EasyDNS</easydns>
                         <freedns>FreeDNS</freedns>
+                        <gandi>Gandi</gandi>
                         <googledomains>Google</googledomains>
                         <he-net>HE.net</he-net>
                         <he-net-tunnel>HE.net TunnelBroker</he-net-tunnel>
@@ -122,6 +123,10 @@
                     <Required>N</Required>
                     <IpAllowed>N</IpAllowed>
                 </zone>
+                <gandi_zone type="HostnameField">
+                    <Required>N</Required>
+                    <IpAllowed>N</IpAllowed>
+                </gandi_zone>
                 <use_interface type="BooleanField">
                     <default>0</default>
                     <Required>Y</Required>

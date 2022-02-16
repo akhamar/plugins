@@ -52,6 +52,20 @@
         <help>Zone containing the host entry.</help>
     </field>
     <field>
+        <id>account.gandi_zone</id>
+        <label>Gandi DNS Zone</label>
+        <type>text</type>
+        <style>optional_setting service_gandi</style>
+        <help>Gandi DNS zone in which we want to add the hostname(s) entry.</help>
+    </field>
+    <field>
+        <id>account.gandi_ttl</id>
+        <label>TTL</label>
+        <type>text</type>
+        <style>optional_setting service_gandi</style>
+        <help>Gandi DNS TTL (format is : 1h, 300s, 15min, ...).</help>
+    </field>
+    <field>
         <id>account.hostnames</id>
         <label>Hostname(s)</label>
         <type>select_multiple</type>
